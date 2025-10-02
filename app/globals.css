@@ -17,6 +17,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+
+  .gradient-title {
+    @apply bg-gradient-to-b from-white via-green-300 to-gray-600 text-transparent bg-clip-text;
+  }
 }
 
 body {
