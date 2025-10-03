@@ -13,7 +13,7 @@ export const renderPredictions = (predictions, ctx) => {
     const isPerson = prediction.class === "person"; // fix comparison
 
     // Draw bounding box
-    ctx.strokeStyle = isPerson ? "#FF0000" : "#00FFFF";
+    ctx.strokeStyle = isPerson ? "#16f551ff" : "#f31c87ff";
     ctx.lineWidth = 4;
     ctx.strokeRect(x, y, width, height);
 
